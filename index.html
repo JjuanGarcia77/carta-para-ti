@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3b0912">
+  <meta name="description" content="Una carta especial, hecha con amor.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Para ti, mi amor</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="svg-defs" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="roseOuterGradient" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0" stop-color="#720e1e"/>
+        <stop offset=".46" stop-color="#a81930"/>
+        <stop offset="1" stop-color="#d45a6c"/>
+      </linearGradient>
+      <radialGradient id="roseMiddleGradient" cx=".43" cy=".36" r=".74">
+        <stop offset="0" stop-color="#d34d60"/>
+        <stop offset=".56" stop-color="#ab1d33"/>
+        <stop offset="1" stop-color="#761021"/>
+      </radialGradient>
+      <radialGradient id="roseInnerGradient" cx=".44" cy=".36" r=".7">
+        <stop offset="0" stop-color="#e88b98"/>
+        <stop offset=".45" stop-color="#c2394d"/>
+        <stop offset="1" stop-color="#8c1325"/>
+      </radialGradient>
+      <linearGradient id="leafGradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#68745e"/>
+        <stop offset="1" stop-color="#3d4a38"/>
+      </linearGradient>
+
+      <path id="petalShape" d="M0 0C-26-12-44-38-38-67C-33-92-8-104 14-92C40-78 48-45 30-21C22-10 11-4 0 0Z"/>
+
+      <g id="leafShape">
+        <path d="M0 45C-30 24-37-11-10-36C15-53 35-22 32 8C29 30 15 45 0 45Z" fill="url(#leafGradient)" stroke="#35422f" stroke-width="1.2"/>
+        <path d="M0 32C-2 10 4-11 14-26" fill="none" stroke="#2f3b2c" stroke-width="1.3" stroke-linecap="round" opacity=".6"/>
+      </g>
+
+      <g id="roseBloom">
+        <g fill="url(#roseOuterGradient)" stroke="#6d0d1b" stroke-width="1.05">
+          <use href="#petalShape" transform="rotate(0)"/>
+          <use href="#petalShape" transform="rotate(45)"/>
+          <use href="#petalShape" transform="rotate(90)"/>
+          <use href="#petalShape" transform="rotate(135)"/>
+          <use href="#petalShape" transform="rotate(180)"/>
+          <use href="#petalShape" transform="rotate(225)"/>
+          <use href="#petalShape" transform="rotate(270)"/>
+          <use href="#petalShape" transform="rotate(315)"/>
+        </g>
+        <g fill="url(#roseMiddleGradient)" stroke="#801124" stroke-width=".95">
+          <use href="#petalShape" transform="rotate(20) scale(.74)"/>
+          <use href="#petalShape" transform="rotate(71) scale(.74)"/>
+          <use href="#petalShape" transform="rotate(122) scale(.74)"/>
+          <use href="#petalShape" transform="rotate(173) scale(.74)"/>
+          <use href="#petalShape" transform="rotate(224) scale(.74)"/>
+          <use href="#petalShape" transform="rotate(275) scale(.74)"/>
+          <use href="#petalShape" transform="rotate(326) scale(.74)"/>
+        </g>
+        <g fill="url(#roseInnerGradient)" stroke="#98182b" stroke-width=".85">
+          <use href="#petalShape" transform="rotate(8) scale(.5)"/>
+          <use href="#petalShape" transform="rotate(80) scale(.5)"/>
+          <use href="#petalShape" transform="rotate(152) scale(.5)"/>
+          <use href="#petalShape" transform="rotate(224) scale(.5)"/>
+          <use href="#petalShape" transform="rotate(296) scale(.5)"/>
+        </g>
+        <g fill="url(#roseInnerGradient)" stroke="#a52035" stroke-width=".75">
+          <use href="#petalShape" transform="rotate(36) scale(.3)"/>
+          <use href="#petalShape" transform="rotate(156) scale(.3)"/>
+          <use href="#petalShape" transform="rotate(276) scale(.3)"/>
+        </g>
+        <path d="M-2-2C14-19 35-4 29 14C24 30 3 37-14 24C-28 13-24-8-9-13C5-18 18-7 15 5C13 14 2 18-4 11" fill="none" stroke="#5e0c17" stroke-width="2.1" stroke-linecap="round" opacity=".9"/>
+      </g>
+
+      <g id="roseSpray">
+        <g fill="none" stroke="#4d5a45" stroke-width="2.4" stroke-linecap="round">
+          <path d="M30 406C96 345 115 279 162 221C212 160 265 116 338 76"/>
+          <path d="M129 296C99 270 85 234 93 200"/>
+          <path d="M205 171C179 145 167 116 174 88"/>
+          <path d="M276 114C290 87 311 65 338 52"/>
+        </g>
+        <g>
+          <use href="#leafShape" transform="translate(126 279) rotate(-62) scale(.86)"/>
+          <use href="#leafShape" transform="translate(93 207) rotate(32) scale(.76)"/>
+          <use href="#leafShape" transform="translate(170 113) rotate(-48) scale(.7)"/>
+          <use href="#leafShape" transform="translate(316 64) rotate(48) scale(.56)"/>
+          <use href="#leafShape" transform="translate(242 161) rotate(126) scale(.61)"/>
+        </g>
+        <g>
+          <use href="#roseBloom" transform="translate(249 128) scale(.93)"/>
+          <use href="#roseBloom" transform="translate(150 247) scale(.61)"/>
+          <use href="#roseBloom" transform="translate(347 57) scale(.37)"/>
+        </g>
+      </g>
+    </defs>
+  </svg>
+
+  <div class="experience" id="experience">
+    <div class="backdrop" aria-hidden="true">
+      <span class="backdrop__halo"></span>
+      <span class="backdrop__orb backdrop__orb--one"></span>
+      <span class="backdrop__orb backdrop__orb--two"></span>
+      <span class="backdrop__orb backdrop__orb--three"></span>
+      <span class="backdrop__grain"></span>
+      <span class="backdrop__vignette"></span>
+    </div>
+
+    <div class="sparkles" id="sparkles" aria-hidden="true"></div>
+    <div class="petals" id="petals" aria-hidden="true"></div>
+    <div class="petals petals--front" id="petalsFront" aria-hidden="true"></div>
+
+    <main class="stage">
+      <div class="card-scene">
+        <div class="card-wrap" id="cardWrap">
+          <div class="card" id="card">
+            <article class="letter" id="letterInside" aria-hidden="false" inert>
+              <div class="letter__light" aria-hidden="true"></div>
+              <div class="letter__edge" aria-hidden="true"></div>
+
+              <div class="letter__rose letter__rose--top" aria-hidden="true">
+                <svg viewBox="0 0 400 420"><use href="#roseSpray"/></svg>
+              </div>
+              <div class="letter__rose letter__rose--bottom" aria-hidden="true">
+                <svg viewBox="0 0 400 420"><use href="#roseSpray"/></svg>
+              </div>
+              <div class="letter__watermark" aria-hidden="true">
+                <svg viewBox="-110 -110 220 220"><use href="#roseBloom"/></svg>
+              </div>
+
+              <button class="replay" id="replay" type="button" tabindex="-1" aria-label="Volver a ver la apertura de la carta">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 11a8 8 0 1 0-2.34 6.16M20 4v7h-7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Volver a ver</span>
+              </button>
+
+              <div class="letter__scroll" id="letterScroll" tabindex="0" role="region" aria-labelledby="letterTitle">
+                <header class="letter__header">
+                  <p class="letter__kicker">Un recordatorio para ti</p>
+                  <h2 class="letter__title" id="letterTitle" tabindex="-1">Para ti, mi amor</h2>
+                  <div class="letter__divider" aria-hidden="true">
+                    <span></span>
+                    <svg viewBox="0 0 24 22"><path d="M12 20C9.7 16.9 3 12.8 3 7.9 3 4.6 5.4 2.5 8.1 2.5c1.7 0 3.1.9 3.9 2.2.8-1.3 2.2-2.2 3.9-2.2 2.7 0 5.1 2.1 5.1 5.4 0 4.9-6.7 9-9 12.1Z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+                    <span></span>
+                  </div>
+                </header>
+
+                <div class="letter__body">
+                  <p>Amor mío, quiero que sepas que eres <em>increíble y hermosa</em>. Me encanta cómo eres y, sobre todo, me encanta la persona que eres. <span class="highlight">Valés muchísimo</span> más que las personas que mienten o que alguna vez te hicieron sentir lo contrario. Tú eres mucho para mí, y por eso quiero decirte que, sin importar la situación, quitando la que ya sabemos, yo voy a estar para ti.</p>
+
+                  <p>Sin importar la hora, el día o el momento, me quiero quedar contigo porque <span class="highlight">te elijo a ti y solo a ti</span>. A veces me gustaría saber qué piensas, amor, o si pensamos igual en muchas de estas cosas. Sé que hasta ahora no nos habíamos podido ver, pero créeme que, como te dije antes, habrá veces en las que podamos vernos seguido y otras en las que no, pero eso no significa que yo vaya a dejar de quererte, amarte o elegirte. Y sé que tú también lo harás, amor.</p>
+
+                  <p>Porque yo no busco solamente a una mujer maravillosa. También quiero hacer feliz a esa <em>niña que llevas dentro</em>, quiero que se sienta cómoda, querida, tranquila y feliz. Y quiero hacer eso contigo, amor. Quiero verte feliz, quiero verte mejor y quiero que tengas la confianza de contarme lo que sientes, sin importar el momento.</p>
+
+                  <p><span class="highlight">No te calles nada</span>, anda, amor. Cuéntamelo, sea bueno o sea malo. Quiero escucharte y estar para ti. Me gustas, te amo con todo mi ser y te amo por todo lo que eres. Por eso te doy estas rosas, porque quería tener un pequeño detalle contigo y recordarte lo mucho que significas para mí.</p>
+
+                  <p class="letter__closing">Te amo, mi amor precioso. <span class="heart">❤️🌹</span></p>
+
+                  <p class="letter__postscript"><strong>PDT:</strong> ¿Te gustaría salir conmigo cuando descanses? Quiero llevarte a un lugar especial y tengo la sensación de que te va a gustar.</p>
+
+                  <p class="letter__signature">Atentamente, tu futuro novio. <span class="heart">❤️</span></p>
+
+                  <p class="letter__closing letter__closing--last">Te amo, mi amor precioso.</p>
+                </div>
+
+                <div class="letter__end" aria-hidden="true">
+                  <span></span>
+                  <svg viewBox="0 0 24 22"><path d="M12 20C9.7 16.9 3 12.8 3 7.9 3 4.6 5.4 2.5 8.1 2.5c1.7 0 3.1.9 3.9 2.2.8-1.3 2.2-2.2 3.9-2.2 2.7 0 5.1 2.1 5.1 5.4 0 4.9-6.7 9-9 12.1Z" fill="currentColor"/></svg>
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="letter__fade" aria-hidden="true"></div>
+              <div class="scroll-cue" id="scrollCue" aria-hidden="true">
+                <span>Desliza para leer</span>
+                <svg viewBox="0 0 20 20"><path d="m5 7.5 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+            </article>
+
+            <div class="cover" id="cover">
+              <div class="cover__front">
+                <div class="cover__paper" aria-hidden="true"></div>
+                <div class="cover__frame" aria-hidden="true"></div>
+
+                <div class="cover__rose cover__rose--top" aria-hidden="true">
+                  <svg viewBox="0 0 400 420"><use href="#roseSpray"/></svg>
+                </div>
+                <div class="cover__rose cover__rose--bottom" aria-hidden="true">
+                  <svg viewBox="0 0 400 420"><use href="#roseSpray"/></svg>
+                </div>
+
+                <div class="cover__content">
+                  <p class="cover__kicker">Un mensaje para ti</p>
+                  <h1 class="cover__title">
+                    <span>Para ti,</span>
+                    <em>mi amor</em>
+                  </h1>
+                  <div class="cover__divider" aria-hidden="true">
+                    <span></span>
+                    <i></i>
+                    <span></span>
+                  </div>
+                  <p class="cover__teaser">Hay cosas que quiero que nunca olvides.</p>
+
+                  <button class="seal" id="seal" type="button" aria-label="Abrir la carta" aria-expanded="false" aria-controls="letterInside">
+                    <span class="seal__halo" aria-hidden="true"></span>
+                    <svg class="seal__wax" viewBox="0 0 180 180" aria-hidden="true">
+                      <defs>
+                        <radialGradient id="waxGradient" cx=".38" cy=".32" r=".78">
+                          <stop offset="0" stop-color="#d4485b"/>
+                          <stop offset=".42" stop-color="#ae1d33"/>
+                          <stop offset="1" stop-color="#710e1d"/>
+                        </radialGradient>
+                        <filter id="waxShadow" x="-30%" y="-30%" width="160%" height="160%">
+                          <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#32060c" flood-opacity=".38"/>
+                        </filter>
+                      </defs>
+                      <path d="M90 8c13-5 24 5 34 7 14 3 20 17 24 30 5 13 13 27 8 41-5 15-1 30-12 42-11 12-22 24-38 26-16 2-30 10-43 1-13-9-28-15-33-30-5-15-14-29-11-44 3-15 2-31 14-42 10-9 22-19 36-21Z" fill="url(#waxGradient)" filter="url(#waxShadow)"/>
+                      <circle cx="90" cy="90" r="58" fill="none" stroke="#5d0b16" stroke-width="1.4" opacity=".42"/>
+                      <circle cx="90" cy="90" r="52" fill="none" stroke="#ffdce1" stroke-width="1" opacity=".18"/>
+                      <path d="M90 120C78 108 54 91 56 70 58 53 80 48 90 64 100 48 122 53 124 70 126 91 102 108 90 120Z" fill="#650d19" opacity=".7"/>
+                      <path d="M90 114C80 103 62 89 63 72 64 60 80 55 90 69 100 55 116 60 117 72 118 89 100 103 90 114Z" fill="none" stroke="#ffc9d1" stroke-width="1" opacity=".28"/>
+                      <ellipse cx="68" cy="59" rx="17" ry="8" transform="rotate(-34 68 59)" fill="#f9c3cc" opacity=".12"/>
+                    </svg>
+                  </button>
+
+                  <p class="cover__hint">Toca el sello para abrir</p>
+                </div>
+              </div>
+
+              <div class="cover__back" aria-hidden="true">
+                <span class="cover__back-frame"></span>
+                <div class="cover__back-mark">
+                  <svg viewBox="-110 -110 220 220"><use href="#roseBloom"/></svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="burst" id="burst" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <p class="sr-only" id="live" aria-live="polite"></p>
+
+    <noscript>
+      <div class="noscript">Activa JavaScript para poder abrir esta carta.</div>
+    </noscript>
+  </div>
+
+  <script src="vendor/gsap.min.js"></script>
+  <script src="vendor/tsparticles.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
